@@ -1,0 +1,134 @@
+body
+{
+	
+	background-size:100%;
+	background-attachment: fixed;
+	background-image: url("2.png" )
+
+
+	
+
+
+}
+#header
+{
+	font-size: 50pt;
+	text-align: center;
+	padding: 50px;
+	font-family: algerian;
+	color: #d8d8d8;
+	background-image: url(1.jpg);
+	background-size: 100% ;
+	background-attachment: fixed;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-decoration: overline;
+ 	font-style: bold;
+ 	text-shadow: 5px 3px black;
+
+}
+
+#menu
+{
+	
+	padding:5px;
+	margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-family: Bernard MT Condensed ;
+    color: white;
+    font-size: 22px
+}
+
+
+#menu a
+{
+	text-decoration: none;
+	color: white;
+}
+#menu a:hover
+{
+	color: black;
+}
+
+#menu
+{
+	padding: 2px;
+	margin-right: 200px;
+	margin-left: 200px;
+	text-align: center;
+	margin-top:2px;
+	border-left: 6px solid red;
+	background-color: red;
+	border-right: 6px solid red;
+	color: white;
+}
+.gallery {
+ 		margin :6px;
+  		border: 1px solid none;
+  		float: left;
+  		width: 180px;
+  		
+}
+
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 0px;
+  text-align: center;
+  font-family: Clarendon BT;
+  color: blue
+  margin-bottom: 20px;
+
+}
+
+.row
+{
+	display: flex;
+	margin-left: 200px;
+    margin-right: 200px;
+  	background-color: lightgray; 
+ 	border: 5px solid;
+ 	border-color: red green orange blue ;
+   	border-radius :5px;
+    
+
+
+
+
+}
+.col{
+	border: 1px solid ;
+	padding: 5px
+	
+}
+.col-sidebar
+{
+	flex: 2;
+
+	
+}
+.col-content
+{
+	flex: 10;
+	word-break: break-all;
+
+	
+}
+
+#footer
+{
+	text-align: center;
+	background-color:  black;
+	padding: 5px;
+	margin-left: 200px;
+    margin-right: 200px	;
+    color: white;
+    background-attachment: fixed;
+
+}
